@@ -1,0 +1,16 @@
+id = "http-client"
+name = "Rest/Http Client"
+description = "Support for *.rest and *.http files"
+version = "0.0.1"
+schema_version = 1
+authors = ["david.ferland.swe@gmail.com"]
+repository = "https://github.com/davidferl/zed-http-client"
+
+[language_servers.kulala-ls]
+name = "kulala-ls"
+languages = ["kulala-http"]
+
+[grammars.kulala_http]
+repository = "https://github.com/mistweaverco/kulala.nvim"
+commit = "8676a4ffc654d9f9404b343982390bea568da737"
+path = "lua/tree-sitter"

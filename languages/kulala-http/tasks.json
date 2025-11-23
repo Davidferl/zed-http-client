@@ -1,0 +1,23 @@
+[
+  {
+    "label": "Run HTTP Request",
+    "command": "npx",
+    "args": ["httpyac", "send", "$ZED_FILE", "--line", "$ZED_ROW"],
+    "tags": ["http-request"],
+    "reveal": "always"
+  },
+  {
+    "label": "Run All Requests in File",
+    "command": "npx",
+    "args": ["httpyac", "send", "$ZED_FILE", "--all"],
+    "tags": ["http-request"],
+    "reveal": "always"
+  },
+  {
+    "label": "Run HTTP Request (Verbose)",
+    "command": "npx",
+    "args": ["httpyac", "send", "$ZED_FILE", "--line", "$ZED_ROW", "--verbose"],
+    "tags": ["http-request"],
+    "reveal": "always"
+  }
+]

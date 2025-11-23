@@ -1,0 +1,4 @@
+name = "kulala-http"
+grammar = "kulala_http"
+path_suffixes = ["http", "rest"]
+line_comments = ["# "]
