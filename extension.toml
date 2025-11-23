@@ -4,7 +4,7 @@ description = "Support for *.rest and *.http files"
 version = "0.0.1"
 schema_version = 1
 authors = ["david.ferland.swe@gmail.com"]
-repository = "https://github.com/davidferl/zed-http-client"
+repository = "https://github.com/Davidferl/zed-http-client"
 
 [language_servers.kulala-ls]
 name = "kulala-ls"

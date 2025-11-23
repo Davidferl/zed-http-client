@@ -1,5 +1,5 @@
 [package]
-name = "zed_kulala_http"
+name = "zed_http_client"
 version = "0.1.0"
 edition = "2021"
 publish = false
