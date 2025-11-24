@@ -2,3 +2,6 @@ name = "kulala-http"
 grammar = "kulala_http"
 path_suffixes = ["http", "rest"]
 line_comments = ["# "]
+brackets = [
+    { start = "{{", end = "}}", close = true, newline = false },
+]
